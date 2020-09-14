@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Product Landing Page</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <img id="header-img" class="logo" src="images/logo.svg" alt="logo">
+    <nav id="nav-bar">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#about-us">About Us</a></li>
+        <li><a class="nav-link" href="#how-to-bake">How To Bake</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <!-- FORM -->
+    <section class="form">
+      <h2>Fresh from the oven</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Enter your email address" required><br>
+      <input type="submit"  id="submit" class="btn">
+    </form>
+    </section>
+    
+
+    <!-- ABOUT US -->
+    <section id="about-us">
+      <div class="about">
+        <div class="about-left">
+          <img src="https://images.pexels.com/photos/6392/white-kitchen-bakery-cookies.jpg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300" alt="bakery">
+        </div>
+          <div class="about-right">
+            <h2>About Us</h2>
+          <p>Whether you are searching for a special birthday cake or simply looking for a sweet ending to an everyday meal.</p>
+          <p>We are sure to have something freshly baked to suit your mood. We are proud to offer a wide variety of freshly baked goods daily, including gourmet cakes, cookies, pies, cheesecakes, brownies and over 50 flavors of cupcakes.</p>
+          <p>What no <strong>one</strong> can resist.</p>
+          </div> 
+      </div>
+    </section>
+    
+
+  <!-- EMBEDDED VIDEO -->
+  <section class="video" id="how-to-bake">
+    <h2>How To Bake</h2>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/f4jSpmgiELU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  
+
+    <!-- PRICING -->
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div class="pricing">
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Basic</li>
+            <li class="grey">$ 9.99 / month</li>
+            <li>10 Video Tutorials</li>
+            <li>10 Ebooks</li>
+            <li>10 Project Courses</li>
+            <li>10 Certificate Courses</li>
+            <li class="grey"><a href="#" class="btn">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Standard</li>
+            <li class="grey">$ 19.99 / month</li>
+            <li>30 Video Tutorials</li>
+            <li>30 Ebooks</li>
+            <li>30 Project Courses</li>
+            <li>30 Certificate Courses</li>
+            <li class="grey"><a href="#" class="btn">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Premium</li>
+            <li class="grey">$ 29.99 / month</li>
+            <li>50 Video Tutorials</li>
+            <li>50 Ebooks</li>
+            <li>50 Project Courses</li>
+            <li>50 Certificate Courses</li>
+            <li class="grey"><a href="#" class="btn">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="copy" >Copyright &copy; 2020, Bakery</p>
+    <ul class="bottom-link">
+      <li><a href="">Privacy</a></li>
+      <li><a href="">Terms</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </footer>
+</body>
+</html>

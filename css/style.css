@@ -1,0 +1,225 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 62.5%;
+	text-align: center;
+	line-height: 1.5;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+li,
+a {
+	font-size: 1rem;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 3rem 10%;
+	background-color: #24252a;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0 2rem;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+	color: #0088a9;
+}
+
+/* FORM */
+.form {
+	margin: 200px auto;
+}
+
+.form h2 {
+	margin-bottom: 20px;
+}
+
+.form input[type="email"] {
+	margin-bottom: 20px;
+	max-width: 275px;
+	width: 100%;
+	padding: .5rem;
+	display: inline-block;
+}
+
+.form input [type="submit"] {
+	width: 150px;
+	width: 100%;
+	height: 30px;
+	margin: 15px 0;
+	border: 0;
+}
+
+/* ABOUT US */
+.about {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.about-left,
+.about-right {
+	flex: 1;
+	margin: 0 20px;
+}
+
+/* EMBEDDED VIDEO */
+.video {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	justify-content: center;
+}
+
+/* PRICING */
+/* Create three columns of equal width */
+.columns {
+	float: left;
+	width: 33.3%;
+	padding: .8rem;
+}
+
+/* Style the list */
+.price {
+	list-style-type: none;
+	border: 1px solid #eee;
+	margin: 0;
+	padding: 0;
+	transition: 0.3s;
+	margin-bottom: 30px;
+}
+
+/* Add shadows on hover */
+.price:hover {
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Pricing header */
+.price .header {
+	background-color: #24252a;
+	color: #edf0f1;
+	font-size: 1.5rem;
+}
+
+/* List items */
+.price li {
+	border-bottom: 1px solid #eee;
+	color: #24252a;
+	padding: 2rem;
+	text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+	background-color: #eee;
+	color: #24252a;
+	font-size: 2rem;
+}
+
+/* The "Sign Up" button */
+.btn {
+	background-color: #0088a9;
+	border: none;
+	color: #edf0f1;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding: .5rem 2rem;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+	background-color: #00576c;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+	.columns {
+		width: 100%;
+	}
+
+	.about {
+		flex-wrap: wrap;
+	}
+
+	.about-left {
+		width: 100%;
+	}
+	.about-right {
+		width: 100%;
+	}
+}
+
+/* FOOTER */
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 3rem 10%;
+	background-color: #24252a;
+}
+
+.copy {
+	color: #edf0f1;
+	font-size: 1rem;
+	margin: auto;
+}
+
+.bottom-link {
+	list-style: none;
+}
+
+.bottom-link li {
+	display: inline-block;
+	padding: 0 2rem;
+}
+
+.bottom-link li a {
+	transition: all 0.3s ease 0s;
+}
+
+.bottom-link li a:hover {
+	color: #0088a9;
+}
